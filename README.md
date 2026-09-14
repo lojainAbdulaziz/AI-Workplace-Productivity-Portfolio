@@ -1,54 +1,126 @@
 # AI Workplace Productivity Portfolio
 
-**Program:** Generative AI for Workplace Productivity (L0-FGP)  
-**Role / Scenario:** Project Coordinator — managing a supplier delivery delay  
-**Portfolio Theme:** Using Generative AI to communicate, structure information, plan recovery actions, and verify workplace outputs.
+## Program
 
-## Project Overview
+**Generative AI for Workplace Productivity (L0-FGP)**  
+**SDAIA Academy**
 
-This portfolio demonstrates how Generative AI can support a Project Coordinator when a supplier delays the delivery of a product. The same workplace scenario is used across all seven sections to keep the portfolio coherent.
+---
 
-The workflow follows a human-in-the-loop approach:
+## Role and Workplace Scenario
+
+**Role:** Project Coordinator
+
+**Scenario:** A supplier has delayed the delivery of a product required for an organizational project.
+
+This portfolio uses one consistent workplace scenario across all seven sections. The project coordinator uses Generative AI to communicate the supplier delay, structure information, assess impact, create recovery plans, verify AI outputs, apply responsible AI principles, and plan future AI use.
+
+---
+
+## Portfolio Overview
+
+This portfolio demonstrates how Generative AI can support workplace productivity while keeping humans responsible for verification, decisions, and final approval.
+
+The core workflow used throughout the portfolio is:
 
 **Organize → Generate → Verify → Refine → Human Sign-off**
 
-AI is used to accelerate drafting, extraction, summarization, and planning. Final decisions and communications remain the responsibility of the human user.
-
-## Workplace Scenario
-
-A supplier has delayed delivery of a product required for an organizational project. The Project Coordinator needs to communicate the delay to the team, extract confirmed facts and action items, assess impact, create a recovery plan, and ensure AI-generated content is verified before use.
-
-> **Important:** The scenario is intentionally generic. No real company, supplier, customer, contract, or confidential information is included.
+---
 
 ## Portfolio Contents
 
-1. [Prompt Engineering](01-prompt-engineering/prompt-library.md)
-   - Prompt library
-   - Before/After prompt example
-2. [Writing Workflow](02-writing-workflow/professional-writing-example.md)
-3. [Information Workflow](03-information-workflow/information-processing-example.md)
-4. [Planning Workflow](04-planning-workflow/planning-example.md)
-5. [Verification](05-verification/verification-checklist.md)
-6. [Responsible AI](06-responsible-ai/responsible-use-checklist.md)
-7. [Personal Integration Plan](07-integration-plan/personal-integration-plan.md)
+| Section | File | Purpose |
+|---|---|---|
+| 01 — Prompt Engineering | `01-prompt-engineering/prompt-library.md` | A reusable library of structured C.A.R.E. and R.C.T.O. prompts |
+| 01 — Before/After | `01-prompt-engineering/before-after-example.md` | Comparison between a weak prompt and an improved structured prompt |
+| 02 — Writing Workflow | `02-writing-workflow/professional-writing-example.md` | Draft → Verify → Refine → Human Sign-off |
+| 03 — Information Workflow | `03-information-workflow/information-processing-example.md` | Input → Prompt → AI Output → Human Review → Final Structured Output |
+| 04 — Planning Workflow | `04-planning-workflow/planning-example.md` | Goal → Mechanisms → Phases → Tasks |
+| 05 — Verification | `05-verification/verification-checklist.md` | Verification checklist applied to an AI-generated output |
+| 06 — Responsible AI | `06-responsible-ai/responsible-use-checklist.md` | Six responsible AI concepts and Green/Amber/Red classification |
+| 07 — Integration Plan | `07-integration-plan/personal-integration-plan.md` | Recurring workplace tasks and a practical AI integration plan |
+
+---
+
+## Key Skills Demonstrated
+
+### Prompt Engineering
+- C.A.R.E. framework
+- R.C.T.O. framework
+- Clear role and context
+- Structured expected outputs
+- Prevention of invented information
+
+### Writing Workflow
+- Drafting
+- Fact verification
+- Tone refinement
+- Human review and sign-off
+
+### Information Workflow
+- Extracting information
+- Restructuring information
+- Action-item identification
+- Human review
+
+### Planning
+- Goal definition
+- Mechanisms
+- Phases
+- Actionable tasks
+- Dependencies
+- Decision points
+
+### Verification
+- Source checking
+- Checking dates and figures
+- Checking names and roles
+- Identifying uncertainty
+- Preventing invented information
+- Human approval
+
+### Responsible AI
+- Accuracy
+- Accountability
+- Confidentiality
+- Privacy
+- Bias
+- Human Oversight
+- Green/Amber/Red information classification
+
+---
 
 ## Key Learnings
 
-- A structured prompt produces more useful and controllable outputs than a vague request.
-- AI outputs should be treated as drafts or working material, not automatically as verified facts.
-- Missing owners, dates, or reasons should be marked as **[Not Specified]** rather than invented.
-- Decision-ready outputs should separate facts, risks, open items, and actions.
-- Human review is essential before important workplace communication is sent.
+1. A clear prompt produces more useful and controllable outputs.
+2. AI output should be treated as a draft rather than automatically accepted as fact.
+3. Missing information should be clearly marked as `[Not Specified]` rather than guessed.
+4. Human review is essential for important workplace communications and decisions.
+5. AI can help organize information and structure plans without replacing human judgment.
+6. Responsible AI use requires attention to accuracy, privacy, confidentiality, bias, accountability, and human oversight.
+
+---
 
 ## Responsible Use Statement
 
-I use Generative AI as a productivity assistant rather than as the final decision-maker. I verify important facts, protect confidential and personal information, review outputs for bias and accuracy, and take responsibility for final workplace communications and decisions.
+This portfolio uses a fictional supplier-delay workplace scenario and does not contain real confidential, private, personal, or sensitive organizational information.
+
+Generative AI is used as a productivity support tool. All important outputs should be reviewed by a human before being shared, used for decisions, or treated as confirmed information.
+
+---
 
 ## Submission Checklist
 
-- Seven portfolio sections included.
-- README included.
-- Examples use one consistent workplace scenario.
-- AI outputs are reviewed before inclusion.
-- No confidential or sensitive real-world information is included.
-- Missing information is marked **[Not Specified]** rather than invented.
+- [x] README completed
+- [x] Seven portfolio sections included
+- [x] Prompt Library included
+- [x] Before/After example included
+- [x] Writing Workflow included
+- [x] Information Workflow included
+- [x] Planning Workflow included
+- [x] Verification checklist and application included
+- [x] Responsible AI analysis included
+- [x] Personal Integration Plan included
+- [x] Examples use one consistent workplace scenario
+- [x] Missing information is marked `[Not Specified]`
+- [x] No real confidential or sensitive information is included
